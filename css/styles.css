@@ -2065,3 +2065,53 @@
 .form-group :disabled + .icon + .icon {
   fill: #171a1fff;
 }
+
+@media (max-width: 768px) {
+  .header-menu {
+    display: none; /* Hide menu on smaller screens */
+  }
+
+  .text-overlay {
+    top: 150px;
+    left: 10px;
+    font-size: 24px;
+  }
+
+  .button1, .button2 {
+    width: 100%;
+    left: 0;
+  }
+
+  .business-promises {
+    flex-direction: column;
+  }
+
+  .icon {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-bar {
+    height: auto;
+  }
+
+  .footer-logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact h1 {
+    font-size: 32px;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+
+  .textbox1 input,
+  .textbox2 input,
+  .textbox3 input {
+    width: 100%;
+  }
+}
